@@ -13,7 +13,8 @@
     "seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
     "reset-db": "node --disable-warning=ExperimentalWarning scripts/seed.js --reset",
     "images": "node scripts/generate-images.js",
-    "test": "playwright test"
+    "test": "playwright test",
+    "set-password": "node --disable-warning=ExperimentalWarning scripts/set-admin-password.js"
   },
   "dependencies": {
     "express": "^5.2.1",

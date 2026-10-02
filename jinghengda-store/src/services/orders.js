@@ -64,7 +64,7 @@ function quoteCart(items) {
       available: !message,
     });
   }
-  const subtotalCents = lines.reduce((sum, l) => sum + l.lineTotalCents, 0);
+  const subtotalCents = lines.filter((l) => l.available).reduce((sum, l) => sum + l.lineTotalCents, 0);
   const shippingCents = shippingFor(subtotalCents);
   return {
     lines,

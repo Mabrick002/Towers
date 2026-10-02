@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jinghengda International Limited — Fine Fragrances</title>
+  <meta name="description" content="Discover fine fragrances from Jinghengda International Limited. Eau de parfum in woody, amber, floral and fresh families, delivered with care.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/store.css">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <span class="eyebrow">Maison de parfum</span>
+          <h1>The art of <em>lasting</em> impressions.</h1>
+          <p class="lead">Rich, long-wearing eaux de parfum composed from oud, amber, rare florals and precious woods. Selected by Jinghengda International for those who wear scent as a signature.</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="#collection">Shop the collection</a>
+            <a class="btn btn-ghost" href="#about">Our story</a>
+          </div>
+          <div class="hero-badges">
+            <div><strong>Eau de Parfum</strong>Concentration</div>
+            <div><strong>2–4 days</strong>Tracked delivery</div>
+            <div><strong>$150+</strong>Free shipping</div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="/images/products/oud-nocturne.svg" alt="Oud Nocturne eau de parfum bottle" width="600" height="750">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="collection" aria-labelledby="collection-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">The collection</span>
+            <h2 id="collection-title">Find your signature</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter by family" id="style-filters"></div>
+        </div>
+
+        <div class="toolbar">
+          <span class="result-count" id="result-count" aria-live="polite"></span>
+          <div class="toolbar-right">
+            <label class="sr-only" for="gender-filter">For</label>
+            <select class="select" id="gender-filter">
+              <option value="">For everyone</option>
+              <option value="For Her">For her</option>
+              <option value="For Him">For him</option>
+              <option value="Unisex">Unisex</option>
+            </select>
+            <label class="sr-only" for="availability-filter">Availability</label>
+            <select class="select" id="availability-filter">
+              <option value="">All availability</option>
+              <option value="in">In stock only</option>
+            </select>
+            <label class="sr-only" for="sort">Sort</label>
+            <select class="select" id="sort">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid" id="product-grid" aria-busy="true">
+          <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-label="Why shop with us">
+      <div class="container">
+        <div class="features">
+          <div class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M9 3h6v3H9z"/><path d="M7 6h10l1 4v9a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-9z"/><path d="M9 13h6"/></svg>
+            <h3>Long-wearing</h3>
+            <p>Every fragrance is an eau de parfum, built to last from morning into evening.</p>
+          </div>
+          <div class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg>
+            <h3>Fast delivery</h3>
+            <p>Orders are packed carefully and dispatched with tracking within 2–4 days.</p>
+          </div>
+          <div class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M12 8v13M3 12h18"/><path d="M12 8c-2-4-6-4-6-1.5S12 8 12 8s6-1 6-1.5S14 4 12 8z"/></svg>
+            <h3>Gift ready</h3>
+            <p>Elegant presentation on every order, with gift notes available at checkout.</p>
+          </div>
+          <div class="feature">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+            <h3>Personal service</h3>
+            <p>Questions about an order? Our team answers every message personally.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div>
+          <span class="eyebrow">Our story</span>
+          <h2 id="about-title">Jinghengda International Limited</h2>
+          <div class="divider"></div>
+          <p>Jinghengda International Limited brings together fragrances with depth and character, from smoky oud and glowing amber to fresh green tea and luminous florals.</p>
+          <p>We believe a fragrance should feel personal. Each scent in our collection is chosen for its quality, its longevity and the way it evolves on the skin, then delivered to you with the care it deserves.</p>
+        </div>
+        <div class="owner-card">
+          <div class="label">Company</div>
+          <div class="value">Jinghengda International Limited</div>
+          <div class="label">Owner</div>
+          <div class="value">Liu Zheng</div>
+          <div class="label">Customer service</div>
+          <div class="value value-sm"><a href="mailto:orders@jinghengdainternational.com">orders@jinghengdainternational.com</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="/js/store/common.js"></script>
+  <script src="/js/store/shop.js"></script>
+</body>
+</html>

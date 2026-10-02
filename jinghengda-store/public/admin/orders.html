@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orders — Jinghengda Admin</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/store.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="admin">
+  <div data-admin-shell>
+    <div class="admin-top">
+      <div><span class="eyebrow">Sales</span><h1>Orders</h1></div>
+      <div class="filter-bar">
+        <label class="sr-only" for="search">Search orders</label>
+        <input class="input" id="search" type="search" placeholder="Search order #, name or email">
+        <label class="sr-only" for="status-filter">Status</label>
+        <select class="select" id="status-filter"><option value="">All statuses</option></select>
+      </div>
+    </div>
+    <div class="panel"><div class="table-wrap" id="orders-root"><div class="panel-body">Loading…</div></div></div>
+  </div>
+  <script src="/js/admin/common.js"></script>
+  <script src="/js/admin/orders.js"></script>
+</body>
+</html>

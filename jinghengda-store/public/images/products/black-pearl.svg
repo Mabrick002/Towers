@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Black Pearl bottle">
+  <defs>
+    <radialGradient id="bg9" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#2a2620"/><stop offset="1" stop-color="#0d0c0b"/>
+    </radialGradient>
+    <linearGradient id="liq9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b4b55" stop-opacity="0.95"/><stop offset="1" stop-color="#0f0f12"/>
+    </linearGradient>
+    <linearGradient id="glass9" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.28"/><stop offset="0.18" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0.03"/><stop offset="1" stop-color="#fff" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="gold9" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6a2f"/><stop offset="0.45" stop-color="#f3dc9b"/>
+      <stop offset="0.6" stop-color="#d4af37"/><stop offset="1" stop-color="#7a5a22"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg9)"/>
+  <ellipse cx="300" cy="640" rx="170" ry="22" fill="#000" opacity="0.55"/>
+  <rect x="255" y="150" width="90" height="70" rx="6" fill="url(#gold9)"/>
+  <rect x="270" y="215" width="60" height="30" fill="url(#gold9)" opacity="0.85"/>
+  <rect x="160" y="240" width="280" height="400" rx="34" fill="url(#liq9)"/>
+  <rect x="160" y="240" width="280" height="400" rx="34" fill="url(#glass9)" stroke="#f3dc9b" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="200" y="380" width="200" height="120" rx="4" fill="#0d0c0b" opacity="0.72" stroke="url(#gold9)" stroke-width="2"/>
+  <text x="300" y="428" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="4" fill="#d4af37">JINGHENGDA</text>
+  <text x="300" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#f5efe2">Black Pearl</text>
+  <text x="300" y="486" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="3" fill="#a89a7c">EAU DE PARFUM</text>
+</svg>

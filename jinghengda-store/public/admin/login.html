@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin sign in — Jinghengda International Limited</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/store.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="admin">
+  <div class="login-wrap">
+    <form class="login-card" id="login-form" novalidate>
+      <div class="brand">
+        <span class="brand-name">JINGHENGDA</span>
+        <span class="brand-sub">INTERNATIONAL LIMITED</span>
+      </div>
+      <h1>Store admin</h1>
+      <p>Sign in to manage products, inventory and orders.</p>
+      <div id="login-error"></div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input class="input" id="email" name="email" type="email" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input class="input" id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <button class="btn btn-gold btn-block" type="submit" id="login-btn">Sign in</button>
+      <p class="help">Admin access only. <a href="/">← Back to store</a></p>
+    </form>
+  </div>
+  <script src="/js/admin/common.js"></script>
+  <script src="/js/admin/login.js"></script>
+</body>
+</html>
