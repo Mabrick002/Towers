@@ -1,0 +1,13 @@
+{
+  "name": "Jinghengda Store",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "cd jinghengda-store && npm install",
+  "postAttachCommand": "cd jinghengda-store && npm run dev",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Jinghengda Store", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "codespaces": { "openFiles": ["jinghengda-store/README.md"] }
+  }
+}
